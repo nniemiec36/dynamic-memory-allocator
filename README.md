@@ -1,0 +1,2 @@
+# Dynamic-Memory-Allocator
+Created an allocator for the x86-64 architecture with the following features: Free lists segregated by size class, using first-fit policy within each size class. Immediate coalescing of blocks on free with adjacent free blocks. Boundary tags to support efficient coalescing. Block splitting without creating splinters. Allocated blocks with client-specified alignment. Free lists maintained using last in first out (LIFO) discipline. Implemented my own versions of the malloc, realloc, free, and memalign functions.
